@@ -27,11 +27,11 @@ int main()
    
    switch (etype) 
    {
-     case 1:cout<<otRate = 1000;
+     case 1:otRate = 1000;
      break;
-     case 2:cout<<otRate = 1500;
+     case 2:otRate = 1500;
      break;
-     default:cout<<otRate = 1700;
+     default:otRate = 1700;
      break;
      
      
@@ -39,7 +39,7 @@ int main()
 
 
    netSalary = salary + otHrs* otRate;
-   cout<<"Netsalary is "<<netSalary<endl;
+   cout<<"Netsalary is "<<netSalary<<endl;
   
    return 0;
 }
