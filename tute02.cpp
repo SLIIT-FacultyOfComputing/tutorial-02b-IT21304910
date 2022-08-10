@@ -22,24 +22,24 @@ int main()
    cin>>etype;
    cout<<"enter salary : ";
    cin>>salary;
-   cout<<"enter othrs : ";
+   cout<<"enter othrs :  ";
    cin>>otHrs;
    
-   switch (etype) 
-   {
-     case 1:otRate = 1000;
-     break;
-     case 2:otRate = 1500;
-     break;
-     default:otRate = 1700;
-     break;
-     
-     
+   switch (etype) {
+      case 1 :
+          otRate = 1000;
+          break;
+      case 2 :
+          otRate = 1500;
+          break;
+      default :
+          otRate = 1700;
+          break;
    }
 
 
    netSalary = salary + otHrs* otRate;
-   cout<<"Netsalary is "<<netSalary<<endl;
+   cout<<"netsalary is "<<netSalary<<endl;
   
    return 0;
 }

@@ -12,8 +12,6 @@ long nCr(int n, int r);
 Do not modify the main function.*/
 
 #include <iostream>
-#include <iomanip>
-using namespace std;
 
 long Factorial(int no);
 long nCr(int n, int r);
